@@ -1,5 +1,5 @@
-import ProductCard from "./ProductCard";
-import Steelpipes from "../../assets/images/steelpipes.jpg";
+// import ProductCard from "./ProductCard";
+// import Steelpipes from "../../assets/images/steelpipes.jpg";
 import RenownedDistributorShipImage1 from "../../assets/images/mishra_dhatu_nigam_limited_841352f3ab 1.png";
 import RenownedDistributorShipImage2 from "../../assets/images/hasmlogo 1.png";
 import RenownedDistributorShipImage3 from "../../assets/images/flowone-logo 1.png";
