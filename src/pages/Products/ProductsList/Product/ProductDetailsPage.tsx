@@ -6,7 +6,7 @@ import RequestQuoteTesting from "../../../../common/RequestQuoteTesting";
 
 const ProductDetailsPage = () => {
   // const { category, id, name, grade } = useParams<{ category: string; id: string; name: string; grade: string | undefined }>();
-  const { id, name, grade } = useParams<{ category: string; id: string; name: string; grade: string | undefined }>();
+  const {name, grade } = useParams<{ category: string; id: string; name: string; grade: string | undefined }>();
   const [data, setData] = useState<any>();
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
 
