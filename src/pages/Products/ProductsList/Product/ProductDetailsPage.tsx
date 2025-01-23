@@ -398,18 +398,33 @@ const ProductDetailsPage = () => {
     }
   }, [name]); // Depend on the 'name' URL parameter to refetch data
 
-  useEffect(() => {
-    if (data && grade) {
-      // Find the grade from the `gradeNames` array
-      const matchedGrade = gradeNames.find((g) => g.toLowerCase().replace(/\s+/g, "-") === grade.toLowerCase().replace(/\s+/g, "-"));
+  // useEffect(() => {
+  //   if (data && grade) {
+  //     // Find the grade from the `gradeNames` array
+  //     const matchedGrade = gradeNames.find((g) => g.toLowerCase().replace(/\s+/g, "-") === grade.toLowerCase().replace(/\s+/g, "-"));
 
-      // Set the selected grade if found
-      if (matchedGrade) {
-        setSelectedGrade(matchedGrade);
-      }
+  //     // Set the selected grade if found
+  //     if (matchedGrade) {
+  //       setSelectedGrade(matchedGrade);
+  //     }
+  //   }
+  // }, [data, grade]); // Depend on 'data' and 'grade' to refetch when they change
+
+useEffect(() => {
+  if (data && grade) {
+    // Find the grade from the `gradeNames` array
+    const matchedGrade = gradeNames.find((g) =>
+      g.toLowerCase().replace(/\s+/g, "-") === grade.toLowerCase().replace(/\s+/g, "-")
+    );
+
+    // Set the selected grade if found
+    if (matchedGrade) {
+      setSelectedGrade(matchedGrade);
     }
-  }, [data, grade]); // Depend on 'data' and 'grade' to refetch when they change
+  }
+}, [data, grade, gradeNames]); // Add gradeNames to the dependency array
 
+  
   return (
     <div>
       {/* Cover Image Section */}
