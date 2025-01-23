@@ -11,17 +11,17 @@ const ProductDetailsPage = () => {
   const [selectedGrade, setSelectedGrade] = useState<any>(null);
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
 
-  // Define lists for Product categories and Material categories
-  const productCategories = [
-    "Pipes", "Pipe Fittings", "Fasteners", "Flanges", "Sheets/Plates", 
-    "Tubes", "Round Bars", "Wire"
-  ];
+  // // Define lists for Product categories and Material categories
+  // const productCategories = [
+  //   "Pipes", "Pipe Fittings", "Fasteners", "Flanges", "Sheets/Plates", 
+  //   "Tubes", "Round Bars", "Wire"
+  // ];
   
-  const materialCategories = [
-    "Stainless Steel", "Duplex Steel", "Super Duplex", "Nickel", 
-    "Inconel", "Monel", "Hastelloy", "Titanium", "Copper/Brass", 
-    "Copper Nickel", "Aluminium", "Carbon Steel", "Alloy Steel"
-  ];
+  // const materialCategories = [
+  //   "Stainless Steel", "Duplex Steel", "Super Duplex", "Nickel", 
+  //   "Inconel", "Monel", "Hastelloy", "Titanium", "Copper/Brass", 
+  //   "Copper Nickel", "Aluminium", "Carbon Steel", "Alloy Steel"
+  // ];
 
   // These are the categories that should NOT display the "Types" section
   const hideTypesForCategories = [
