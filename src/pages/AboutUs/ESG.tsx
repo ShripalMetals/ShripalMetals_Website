@@ -1,4 +1,4 @@
-import Workers from "../../assets/images/workers.jpg";
+// import Workers from "../../assets/images/workers.jpg";
 import ContactFooter from "../../common/components/ContactFooter";
 import AboutUsEsg1 from "../../assets/images/aboutUsEsg1.png";
 import AboutUsEsg2 from "../../assets/images/aboutUsEsg2.png";
