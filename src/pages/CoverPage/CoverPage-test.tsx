@@ -2,15 +2,14 @@ import VectorIcon from "../../assets/images/icons/Vector.svg";
 import steel from "../../assets/videos/cover-video3.mp4";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import CoverPageNavbar from "./CoverPageNavbar";  // Import the new Navbar component
 
 const CoverPage = () => {
   const navigate = useNavigate();
   const [currentValue, setCurrentValue] = useState("Manufacturing Excellence");
   const values = ["Manufacturing Excellence", "Trading", "EPC Expertise"];
-  let index = 0;
 
   useEffect(() => {
+    let index = 0;
     const interval = setInterval(() => {
       index = (index + 1) % values.length;
       setCurrentValue(values[index]);
