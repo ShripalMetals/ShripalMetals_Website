@@ -6,7 +6,7 @@ import CoverPageNavbar from "./pages/CoverPage/CoverPageNavbar"; // Import Cover
 import { useLocation } from "react-router-dom"; // Import useLocation to get the current route
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProductDetailsPage from "../src/pages/Products/ProductsList/Product/ProductDetailsPage";
+// import ProductDetailsPage from "../src/pages/Products/ProductsList/Product/ProductDetailsPage";
 import Chatbot from "../src/pages/Chatbot";
 
 const App = () => {
