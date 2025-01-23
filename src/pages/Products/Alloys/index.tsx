@@ -12,7 +12,7 @@ import Aluminium from "../../../assets/images/alloys/aluminium.png";
 import CarbonSteel from "../../../assets/images/alloys/carbon-steel.png";
 import AlloySteel from "../../../assets/images/alloys/alloy-steel.png";
 
-import Pipes from "../../../assets/images/alloys/stainless-steel.png";
+// import Pipes from "../../../assets/images/alloys/stainless-steel.png";
 import { Link } from "react-router-dom";
 
 const Alloys = () => {
