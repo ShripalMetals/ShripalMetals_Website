@@ -79,13 +79,13 @@ const CSR = () => {
             onSlideChange={(swiper: SwiperType) => setActiveSlide(swiper.activeIndex)}  // Typing the 'swiper' parameter
           >
             <SwiperSlide>
-              <img className="w-full h-[300px] lg:h-[500px] object-cover" alt="CSR Image 1" src={AboutUsCsr2} />
+              <img className="w-full h-[300px] lg:h-[500px] object-cover" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="w-full h-[300px] lg:h-[500px] object-cover" alt="CSR Image 2" src={AboutUsCsr3} />
+              <img className="w-full h-[300px] lg:h-[500px] object-cover" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="w-full h-[300px] lg:h-[500px] object-cover" alt="CSR Image 3" src={AboutUsCsr1} />
+              <img className="w-full h-[300px] lg:h-[500px] object-cover" />
             </SwiperSlide>
           </Swiper>
         </div>
