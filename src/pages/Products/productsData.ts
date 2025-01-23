@@ -32,7 +32,7 @@ import Rivets from "../../assets/images/products/fasteners/rivets.jpg";
 import Pins from "../../assets/images/products/fasteners/pins.jpg";
 import ClipsClamps from "../../assets/images/products/fasteners/clips-clamps-fasteners.jpg";
 import SpecialtyFasteners from "../../assets/images/products/fasteners/speciality-fasteners.jpg";
-import AdhesiveFasteners from "../../assets/images/products/fasteners/adhesive-fasteners.jpg";
+// import AdhesiveFasteners from "../../assets/images/products/fasteners/adhesive-fasteners.jpg";
 
 
 export const productsData = {
