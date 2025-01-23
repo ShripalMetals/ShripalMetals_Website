@@ -3,7 +3,7 @@ import Pipes from "../../assets/images/pipes-1.png";
 import Flanges from "../../assets/images/flanges-1.png";
 // import PipeFittings from "../../assets/images/pipe-fittings.png";
 import PipeFittings from "../../assets/images/products-manufactured/fittings.png";
-import Fasteners from "../../assets/images/products-manufactured/fasteners.png";
+// import Fasteners from "../../assets/images/products-manufactured/fasteners.png";
 import SheetsAndPlates from "../../assets/images/products-manufactured/sheets.png";
 import HandRailing from "../../assets/images/products-manufactured/railing.png";
 
