@@ -3,7 +3,7 @@ import Domestic from "./Domestic";
 import Export from "./Export";
 import FabricationEPC from "./FabricationEPC";
 import ClientsCarousel from "./ClientsCarousel";
-import PhotoSlider from "./PhotoSlider";
+// import PhotoSlider from "./PhotoSlider";
 import ProjectsSkeleton from "./ProjectsSkeleton";
 
 const Projects = () => {
