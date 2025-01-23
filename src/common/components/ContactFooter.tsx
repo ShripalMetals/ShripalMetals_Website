@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Linkedin from "../../assets/images/icons/linkedinnew.svg";
 import Youtube from "../../assets/images/icons/youtube.svg";
-import Instagram from "../../assets/images/icons/instagram.svg";
-import Twitter from "../../assets/images/icons/twitter.svg";
+// import Instagram from "../../assets/images/icons/instagram.svg";
+// import Twitter from "../../assets/images/icons/twitter.svg";
 import WhatsApp from "../../assets/images/icons/whatsapp.svg";
 
 const ContactFooter = () => {
