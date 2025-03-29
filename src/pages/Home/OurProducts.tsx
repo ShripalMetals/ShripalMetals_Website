@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Pipes from "../../assets/images/pipes-1.png";
 import Flanges from "../../assets/images/flanges-1.png";
 // import PipeFittings from "../../assets/images/pipe-fittings.png";
