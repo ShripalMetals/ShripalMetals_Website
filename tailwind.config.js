@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [react()],
+  plugins: [],
   server: {
   host: '0.0.0.0',
   port: process.env.PORT || 4000,
